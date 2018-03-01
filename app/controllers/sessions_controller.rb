@@ -5,8 +5,8 @@ class SessionsController < ApplicationController
   def create
     if @user && @user.authenticate(params[:session][:password])
       log_in @user
-      params[:session][:remember_me] == "1" ? remember(@user) : forget(@user)
-      redirect_to @user
+      params[:session][:remember_me] == Settings.session.remember_me ? remember(@user) : forget(@user)
+      redirect_back_or @user
     else
       flash.now[:danger] = t "sessions.create.login_error"
       render :new

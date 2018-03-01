@@ -85,9 +85,28 @@ en:
       sign_up: "Sign up"
       p_content: "This will be a signup page for new users."
       create_account: "Create my account"
-      pass_confirm: "Confirmation"
+      btn_signup: "Create my account"
     create:
       welcome: "Welcome to the Sample App!"
+    edit:
+      change: "change"
+      btn_save: "Save change"
+      title: "Edit user"
+      title2: "Update your profile"
+    update:
+      updated: "Profile updated"
+    logged_in_user:
+      pl_login: "Please log in"
+    index:
+      title: "All users"
+    user:
+      delete: "delete"
+      cfm_delete: "You sure?"
+    destroy:
+      success: "User deleted"
+      fail: "Deleting user failed"
+    form:
+      pass_confirm: "Confirmation"
   shared:
     error_messages:
       form_error: "The form contains"

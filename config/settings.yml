@@ -3,3 +3,5 @@ user:
   name_max_length: 50
   password_min_length: 6
   avatar_size: 80
+session:
+  remember_me: "1"
