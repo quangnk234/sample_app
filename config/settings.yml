@@ -3,5 +3,6 @@ user:
   name_max_length: 50
   password_min_length: 6
   avatar_size: 80
+  hour_expired: 2
 session:
   remember_me: "1"
