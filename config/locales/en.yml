@@ -128,6 +128,17 @@ en:
       title_contact: "contact page"
       url_contact: "http://www.railstutorial.org/contact"
   users:
+    show_follow:
+      view_profile: "view my profile"
+      micropost: "Microposts:"
+    following:
+      title: "Following"
+    followers:
+      title: "Followers"
+    follow:
+      follow: "Follow"
+    unfollow:
+      unfollow: "Unfollow"
     new:
       sign_up: "Sign up"
       p_content: "This will be a signup page for new users."
@@ -167,6 +178,9 @@ en:
     micropost_form:
       place: "Compose new micropost..."
       post: "Post"
+    stats:
+      followers: "followers"
+      following: "following"
   sessions:
     new:
       log_in: "Log in"
